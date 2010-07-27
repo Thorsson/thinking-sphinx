@@ -4,7 +4,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{thinking-sphinx}
+  s.name = %q{thorsson_thinking-sphinx}
   s.version = "1.3.18"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -110,7 +110,6 @@ http://freelancing-god.github.com/ts/en/upgrading.html
      "features/support/lib/generic_delta_handler.rb",
      "features/thinking_sphinx",
      "features/thinking_sphinx/database.example.yml",
-     "features/thinking_sphinx/database.yml",
      "features/thinking_sphinx/db",
      "features/thinking_sphinx/db/fixtures",
      "features/thinking_sphinx/db/fixtures/alphas.rb",
