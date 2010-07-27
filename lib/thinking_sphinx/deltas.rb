@@ -8,7 +8,7 @@ module ThinkingSphinx
       when TrueClass, :default
         DefaultDelta.new index, index.local_options
       when :delayed
-        DelayedDelta.new index, index.local_options
+        ThinkingSphinx::Deltas::DelayedDelta.new index, index.local_options
       when :datetime
         DatetimeDelta.new index, index.local_options
       when FalseClass, nil
